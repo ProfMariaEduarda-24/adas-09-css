@@ -1,0 +1,66 @@
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("../images/imagem-3.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+    pointer-events: none;
+
+}
+
+div.caixa div {
+    width: 75px;
+    height: 75px;
+    /* block: Define o elemento como um bloco, ocupando toda a largura disponível e iniciando uma nova linha. */
+
+}
+
+.azul {
+    background-color: lightblue;
+    /*inline-block: Exibe o elemento na mesma linha, mas permite definir largura, altura, margens e espaçamentos. */
+    display: inline-block;
+}
+
+.vermelho {
+    background-color: red;
+    /* none: Oculta completamente o elemento da página, fazendo com que ele não ocupe espaço no layout. */
+    display: none;
+}
+
+.verde {
+    background-color: green;
+    display: inline-block;
+}
+
+.roxo { 
+    background-color: purple;
+    /* inline: Exibe o elemento na mesma linha que os demais, ocupando apenas o espaço necessário para o seu conteúdo. */
+    display:inline;
+}
+
+.rosa {
+    background-color: pink;
+    display:block;
+}
+
+.amarelo {
+    background-color: yellow;
+    display:inline-block;
+    /*opacity: 0 : Torna o elemento totalmente transparente (invisível), mas ele continua ocupando o espaço no layout e ainda pode receber interações, como cliques. */
+    opacity: 0;
+}
+
+.cinza {
+    background-color: gray;
+    display:inline-block;
+    opacity: 0.5;
+}
+
+.preto {
+    background-color: black;
+    color: white;
+    display:inline-block ;
+}
